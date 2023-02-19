@@ -113,13 +113,13 @@ def printinfo(DetailsPrinted):
             EmpTotals["TotNetPay"] = TotNetPay
             DetailsPrinted = True
         if (DetailsPrinted): #skip of no detail lines printed
-            printTotals (EmpTotals)
+            PrintTotals(EmpTotals)
         else:
             print("No detail information to print")
 
 def PrintTotals(EmpTotals):
     print()
-    print('Total Number Of Employees: {EmpTotals["TotEmp"]}')
+    print(f'Total Number Of Employees: {EmpTotals["TotEmp"]}')
     print(f'Total Hours Worked: {EmpTotals["TotHrs"]:,.2f}')
     print(f'Total Gross Pay: {EmpTotals["TotGrossPay"]:,.2f}')
     print(f'Total Income Tax: {EmpTotals["TotTax"]:,.2f}')
@@ -138,8 +138,8 @@ if __name__ == "__main__":
                     break
                 fromdate, todate = GetDatesWorked()
                 hours = GetHoursWorked()
-                hourlyrate = GetHourlyRate
-                taxrate = GetTaxRate
+                hourlyrate = GetHourlyRate()
+                taxrate = GetTaxRate()
                 fromdate = fromdate.strftime('%Y-%m-%d')
                 todate = todate.strftime('%Y-%m-%d')
                 # write the line of code that will assign to EmpDetail a pipe delimited string of fromdate, todate, empname, hours, hourlyrate and taxrate and a carriage return at the end

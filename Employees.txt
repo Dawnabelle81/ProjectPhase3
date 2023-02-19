@@ -1,3 +1,2 @@
-2019-02-04|2023-02-19|Dawn|80.0|<function GetHourlyRate at 0x0000023B29F77D30>|<function GetTaxRate at 0x0000023B29F800D0>
-2022-01-01|2023-03-05|Scott|160.0|<function GetHourlyRate at 0x0000023B29F77D30>|<function GetTaxRate at 0x0000023B29F800D0>
-2020-01-01|2023-01-01|daw|80.0|<function GetHourlyRate at 0x000001F621187D30>|<function GetTaxRate at 0x000001F6211900D0>
+2020-01-01|2023-01-02|Dawn|160.0|23.0|0.1
+2023-04-01|2023-06-01|Denva|200.0|50.0|0.075
