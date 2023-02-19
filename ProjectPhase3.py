@@ -93,12 +93,12 @@ def printinfo(DetailsPrinted):
             grosspay, incometax, netpay = CalcTaxAndNetPay(hours, hourlyrate, taxrate)
             print("**********************************************************")
             print("Name: ", empname)
-            print('Hours Worked: ', f"{hours:,.2f")
-            print('Hourly Rate: ', f"{hourlyrate:,.2f")
-            print('Gross Pay: ', f"{grosspay:,.2f")
+            print('Hours Worked: ', f"{hours:,.2f}")
+            print('Hourly Rate: ', f"{hourlyrate:,.2f}")
+            print('Gross Pay: ', f"{grosspay:,.2f}")
             print('Tax Rate: ', f"{taxrate:,.1%}")
-            print('Income Tax: ', f"{incometax:,.2f")
-            print('Net Pay: ', f"{netpay:,.2f")
+            print('Income Tax: ', f"{incometax:,.2f}")
+            print('Net Pay: ', f"{netpay:,.2f}")
             print("**********************************************************")
             print()
             TotEmployees += 1
@@ -119,8 +119,8 @@ def printinfo(DetailsPrinted):
 
 def PrintTotals(EmpTotals):
     print()
-    print('Total Number Of Employees: {EmpTotals["TotEmp]}')
-    print(f'Total Hours Worked: {EmpTotals["TotHrs]:,.2f}')
+    print('Total Number Of Employees: {EmpTotals["TotEmp"]}')
+    print(f'Total Hours Worked: {EmpTotals["TotHrs"]:,.2f}')
     print(f'Total Gross Pay: {EmpTotals["TotGrossPay"]:,.2f}')
     print(f'Total Income Tax: {EmpTotals["TotTax"]:,.2f}')
     print(f'Total Net Pay: {EmpTotals["TotNetPay"]:,.2f}')
